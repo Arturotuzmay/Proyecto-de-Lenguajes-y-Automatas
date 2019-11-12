@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Encuesta</title>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="main.js"></script>  
+</head>
+
+<body>
+
+    <form name="encuesta" id="formulario">
+        <h1>ENCUESTA</h1>
+        <div id="Pregunta">
+            <label><h2>1. Selecciona la carrera a la que perteneces</h2></label>
+        </div>
+        <div id="opciones">
+            <input type="radio" name="p1" value="0"> Ingeniería en Sistemas Computacionales <br>
+            <input type="radio" name="p1" value="1"> Ingeniería en Administración <br>
+            <input type="radio" name="p1" value="2"> Ingeniería Civil <br>
+            <input type="radio" name="p1" value="3"> Ingeniería Industrial <br>
+            <input type="radio" name="p1" value="4"> Ingeniería Ambiental <br><br>
+        </div>
+        <div>
+            <div id="error"></div>
+        </div>
+        <div id="envio">
+            <input type="submit" value="Enviar">
+        </div>
+        <h1>RESULTADOS</h1>
+        <div id="resultado"></div>
+        <script src="contador.js"></script>  
+    </form>
+  
+</body>
+</html>

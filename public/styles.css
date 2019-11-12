@@ -1,0 +1,19 @@
+body {
+    background-color: powderblue;
+    text-align:center;
+
+  }
+  h1 {
+    color: whitesmoke;
+    text-align:center;
+    background-color:DodgerBlue;
+    border-radius: 30px;
+  }
+  p {
+    color: red;
+    text-align:left;
+  }
+ form{
+    text-align:center;
+
+ }

@@ -24,6 +24,7 @@ function enviar(e) { //Funcion que se ejecuta cada vez que se pulsa sobre el bot
         document.getElementById("error").innerHTML="Selecciona una opción";
     }
     e.preventDefault(); // cancelamos el evento para que no continue
+    
 }
   
 function inicializarArrayResultados() { //Funcion para inicializar el array
@@ -42,3 +43,10 @@ function enviarValores(){
     asignarValores(t,v,w,x,y,z);
     addMessage(t);
 }
+
+/*function ocultar(){
+    //document.getElementById()
+    //envio.disabled=true;
+    document.getElementById("btn").disabled= true;
+
+}*/

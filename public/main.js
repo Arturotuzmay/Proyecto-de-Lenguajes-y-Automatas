@@ -1,4 +1,4 @@
-var socket = io.connect('http://192.168.61.28:8081', { 'forceNew': true });
+var socket = io.connect('http://192.168.0.115:8081', { 'forceNew': true });
 
 socket.on('messages', function(data) {
   console.log(data);
@@ -35,3 +35,4 @@ function asignarValores(t,a,e,i,o,u) {
   document.getElementById("indus").innerHTML= o;
   document.getElementById("ambie").innerHTML= u;
 }
+

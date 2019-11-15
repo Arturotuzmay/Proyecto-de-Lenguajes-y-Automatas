@@ -1,4 +1,4 @@
-var socket = io.connect('http://192.168.0.115:8081', { 'forceNew': true });
+var socket = io.connect('http://192.168.61.107:8081', { 'forceNew': true });
 
 socket.on('messages', function(data) {
   console.log(data);

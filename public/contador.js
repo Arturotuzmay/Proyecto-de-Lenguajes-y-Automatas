@@ -20,6 +20,7 @@ function enviar(e) { //Funcion que se ejecuta cada vez que se pulsa sobre el bot
         });
         //mostrarResultado(); //Lllama a la función mostrarResultado para que se encargue de todo lo demás
         enviarValores();
+        document.getElementById("btnenv").hidden=true;
     }else{
         document.getElementById("error").innerHTML="Selecciona una opción";
     }
@@ -43,10 +44,3 @@ function enviarValores(){
     asignarValores(t,v,w,x,y,z);
     addMessage(t);
 }
-
-/*function ocultar(){
-    //document.getElementById()
-    //envio.disabled=true;
-    document.getElementById("btn").disabled= true;
-
-}*/
